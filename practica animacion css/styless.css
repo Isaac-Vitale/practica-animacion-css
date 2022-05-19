@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position: relative;
+
+    transition: background-color 2s ease-in-out, width 4s, border-radius 2s, transform 1.5s ease-in-out;
+    /* transition-delay: 2s; */
+}
+
+.box:hover{
+    background-color: blue;
+    border-radius: 25px;
+    width: 300px;
+    transform: rotate(45deg) translateY(100px);
+}
